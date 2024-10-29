@@ -62,7 +62,7 @@ struct ContentView: View {
             }
         }
         .alert(isPresented: $gameOver, content : {
-            Alert(title: Text("You won the game"), dismissButton:
+            Alert(title: Text("You won the game!"), dismissButton:
                     .destructive(Text("Play again"), action: {
                         withAnimation {
                             gameScore = 0
